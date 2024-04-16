@@ -80,4 +80,4 @@ class Television:
                     self.__volume -= 1
 
     def __str__(self) -> str:
-        return f'Power = {self.__status}, Channel  = {self.__channel}, Volume = {self.__volume}'
+        return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume}'
